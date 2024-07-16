@@ -6,13 +6,14 @@ publish = false
 
 [dependencies]
 pebbles-game-io = { path = "./io" }
-gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" }
 
 [build-dependencies]
 pebbles-game-io.path = "io"
-gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+gear-wasm-builder = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" }
 
 [dev-dependencies]
 pebbles-game-io.path = "io"
-gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
-gtest = { git = "https://github.com/gear-tech/gear.git", tag = "v1.2.0" }
+gstd = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" }
+gtest = { git = "https://github.com/gear-tech/gear.git", tag = "v1.4.1" }
+
